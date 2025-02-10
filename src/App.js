@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div>
-      <h1>Gestión de Documentos</h1>
+      <h1>Gesttión de Documentos</h1>
       <select onChange={handleUniversidadChange} value={selectedUniversidad}>
         <option value="">Seleccione una universidad</option>
         {universidades.map(universidad => (
